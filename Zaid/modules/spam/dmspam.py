@@ -31,7 +31,7 @@ async def dmraid(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
-              await e.reply_text("`Dm Raid Strated Successfully`")
+              await e.reply_text("`Dm Raid Started Successfully`")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -49,7 +49,7 @@ async def dmraid(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
-              await e.reply_text("Dm Raid Strated Successfully")
+              await e.reply_text("Dm Raid Started Successfully")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -91,7 +91,7 @@ async def dmspam(spam: Client, e: Message):
           else:
               counts = int(text[0])
               msg = str(Zaid[0])
-              await e.reply_text("☢️ Dm Spam Strated ☢️")
+              await e.reply_text("☢️ Dm Spam Started ☢️")
               for _ in range(counts):
                     await spam.send_message(id, msg)
                     await asyncio.sleep(0.10)
