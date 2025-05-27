@@ -54,6 +54,7 @@ async def who_is(client: Client, message: Message):
 👀 <b>Same groups seen:</b> {len(common)}
 👁️ <b>Last Seen:</b> <code>{status}</code>
 🔗 <b>User permanent link:</b> <a href='tg://user?id={user.id}'>{fullname}</a>
+ℹ️ <b>User info by:</b> <a href='https://t.me/UserBotXProbot'>{𝐓ᴏᴘᴘᴇꝛ𝛅 ꭙ 𝐔sᴇꝛвσᴛ | 🚩}</a>
 """
         photo_id = user.photo.big_file_id if user.photo else None
         if photo_id:
@@ -114,6 +115,7 @@ async def chatinfo_handler(client: Client, message: Message):
 🚻 <b>Total members:</b> <code>{chat.members_count}</code>
 📝 <b>Description:</b>
 <code>{description}</code>
+ℹ️ <b>Chat info by:</b> <a href='https://t.me/UserBotXProbot'>{𝐓ᴏᴘᴘᴇꝛ𝛅 ꭙ 𝐔sᴇꝛвσᴛ | 🚩}</a>
 """
         photo_id = chat.photo.big_file_id if chat.photo else None
         if photo_id:
