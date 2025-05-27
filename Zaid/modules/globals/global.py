@@ -1,6 +1,6 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = [6762113050, 6919199044]
+DEVS = [8181241262, 7843292330]
 from Zaid.helper.PyroHelpers import get_ub_chats
 from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
 from Zaid.database import gbandb as Zaid
@@ -139,7 +139,7 @@ async def gmute_user(client: Client, message: Message):
     try:
         replied_user = reply.from_user
         if replied_user.is_self:
-            return await ex.edit("`Calm down anybob, you can't gmute yourself.`")
+            return await ex.edit("`Calm down baby, you can't gmute yourself.`")
     except BaseException:
         pass
 
@@ -182,7 +182,7 @@ async def ungmute_user(client: Client, message: Message):
     try:
         replied_user = reply.from_user
         if replied_user.is_self:
-            return await ex.edit("`Calm down anybob, you can't ungmute yourself.`")
+            return await ex.edit("`Calm down baby, you can't ungmute yourself.`")
     except BaseException:
         pass
 
